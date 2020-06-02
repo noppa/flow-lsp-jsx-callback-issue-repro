@@ -4,6 +4,8 @@ The purpose of this repo is to demonstrate a Flow issue,
 where Flow is unable to provide autocomplete suggestions
 for code that is inside a JSX attribute callback.
 
+[Flow issue](https://github.com/facebook/flow/issues/8391).
+
 ## How to test
 
 Clone the repo and install Flow with `npm i`.
