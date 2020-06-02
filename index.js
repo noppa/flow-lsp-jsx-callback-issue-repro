@@ -3,11 +3,11 @@ import React from 'react'
 
 const obj = {foo: ''}
 
-obj
+obj.
 
 const el =
   <button onClick={() => {
-    obj
+    obj.
   }}>{
-    String(obj)
+    String(obj.)
   } </button>
