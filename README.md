@@ -7,7 +7,7 @@ that is inside a JSX attribute callback.
 
 ## How to test
 
-Open the folder in VSCode (it's configured for VSCode but should
+Clone the repo, run `npm i`, and open the folder in VSCode (it's configured for VSCode but should
 work with other LSP clients too), with the
 [flow-for-vscode](https://github.com/flowtype/flow-for-vscode)
 extension installed.
@@ -21,10 +21,12 @@ Ctrl+H) and select "Flow" from the dropdown.
 ## What will happen
 
 When writing `obj.` in line 6 or 12, Flow gives autocomplete suggestions.  
-<details><summary>LSP Trace logs</summary>
+<details>
+  <summary>LSP Trace logs</summary>
 <p>
 The LSP trace shows something like
-```
+
+```text
 Sending request 'textDocument/completion'
 
 {
