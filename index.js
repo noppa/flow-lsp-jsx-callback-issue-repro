@@ -5,6 +5,9 @@ const obj = {foo: ''}
 
 obj
 
-const el = <button onClick={() => {
-  obj
-}} />
+const el =
+  <button onClick={() => {
+    obj
+  }}>{
+    String(obj)
+  } </button>
